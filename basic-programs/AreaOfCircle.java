@@ -7,7 +7,6 @@ public class AreaOfCircle{
 		System.out.println(areaofcicle);
 	}
 	public static void main(String[] args){
-	
-		area();
+		area(); 
 	}
 }
