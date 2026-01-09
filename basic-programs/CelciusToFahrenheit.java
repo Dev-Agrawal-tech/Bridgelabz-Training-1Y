@@ -8,7 +8,6 @@ public class CelciusToFahrenheit{
 	
 		Scanner s = new Scanner(System.in);
 		int Celcius = s.nextInt();
-		
 		System.out.println(conversion(Celcius));
 	}
 }
