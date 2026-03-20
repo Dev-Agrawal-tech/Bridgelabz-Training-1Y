@@ -1,0 +1,22 @@
+package com.gla.string_api.level3;
+import java.util.Scanner;
+public class CharFrequency {
+	 public static void freq(String s){
+	        int[] f=new int[256];
+	        for(int i=0;i<s.length();i++){
+	            f[s.charAt(i)]++;
+	        }
+	        for(int i=0;i<256;i++){
+	            if(f[i]>0){
+	                System.out.println((char)i+" "+f[i]);
+	            }
+	        }
+	    }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		  Scanner sc=new Scanner(System.in);
+	        String s=sc.nextLine();
+	        freq(s);
+	}
+
+}
